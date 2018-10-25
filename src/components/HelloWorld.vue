@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <site-header></site-header>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -80,16 +81,24 @@
         </a>
       </li>
     </ul>
+    <site-footer></site-footer>
   </div>
 </template>
 
 <script>
+import SiteHeader from '@/components/SiteHeader';
+import SiteFooter from '@/components/SiteFooter';
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    SiteHeader,
+    SiteFooter
   }
 }
 </script>
