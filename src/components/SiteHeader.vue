@@ -2,12 +2,12 @@
   <div class="site-header">  
     <b-navbar class="site-header-nav" toggleable="md" type="light" variant="light">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand href="http://becoder.top">
+      <b-navbar-brand href="https://becoder.top">
         <img :src="require('../assets/images/logo.png')" width="150" height="40" alt="becoder.top">
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav>
-          <b-nav-item v-for="(item, index) in navlist" :key="index" :href="item.url">
+          <b-nav-item v-for="(item, index) in navlist" :key="index" :href="item.url" @click="item.urlgo">
             {{item.title}}
           </b-nav-item>
         </b-navbar-nav>
@@ -37,14 +37,23 @@ export default {
             {
                 title: '博客',
                 url: '#',
+                urlgo: () => {
+                  this.$router.push('/');
+                }
             },
             {
                 title: '简书',
                 url: 'https://www.jianshu.com/u/0e406beac079',
+                urlgo: () => {
+                  
+                }
             },
             {
                 title: '项目',
                 url: '#',
+                urlgo: () => {
+                  this.$router.push('proj');
+                }
             }
         ],
         iconlist: [

@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Fly Ball",
+      "abstract": "在2020年9月，我与弟弟萌生了想要自己制作游戏的想法。于是 Fly Ball 应运而生，它是我们第一个制作的小游戏，虽然很简单，但它促成了我们专业上的初次合作，具有特殊意义。小球为了保护身后的冰块，不断击碎对应颜色的砖块。仅支持手机竖屏模式下显示。",
+      "imageUrl": "https://becoder.top/resouces/images/projects/flyball_preview.png",
+      "gameUrl": "https://becoder.top/flyball/index.html",
+      "codeUrl": "https://github.com/ryan4g"
+    },
+    {
+      "title": "Cat Catch",
+      "abstract": "小猫咪的梦想成真了，天上掉大鱼了！三只不同颜色的小猫要在有限的时间内，完成抓捕对应颜色、数量大鱼的目标。与 Fly Ball 一样，该游戏仅支持手机竖屏模式下显示。",
+      "imageUrl": "https://becoder.top/resouces/images/projects/catcatch_preview.png",
+      "gameUrl": "https://becoder.top/catcatch/index.html",
+      "codeUrl": "https://github.com/ryan4g"
+    },
+    {
+      "title": "Sokoban Puzzle",
+      "abstract": "这是一个有 50 关地图的推箱子游戏， 它采用 phaser3 制作。地图来源参考 sokobanonline.com 的课程专题，实现了五种颜色的箱子移动，以及冰块、黑洞地砖的逻辑。特别感谢 Youtube 的 ourcade 频道， 其中的视频对我帮助很大。",
+      "imageUrl": "https://becoder.top/resouces/images/projects/sokoban_preview.png",
+      "gameUrl": "https://becoder.top/sokoban/index.html",
+      "codeUrl": "https://github.com/ryan4g/phaser3-sokoban-puzzle"
+    },
+    {
+        "title": "PAC-MAN !!!",
+        "abstract": "仿照红白机的经典游戏「吃豆人」，编写 phaser3 小游戏。不同颜色幽灵的行为模式编码参考了 gameinternals.com 内的关于该游戏的AI路径分析。",
+        "imageUrl": "https://becoder.top/resouces/images/projects/pacman_preview.png",
+        "gameUrl": "https://becoder.top/pacman/index.html",
+        "codeUrl": "https://github.com/ryan4g/phaser3-typescript-pacman"
+    },
+    {
+    "title": "Let's Tetris",
+    "abstract": "原来「俄罗斯方块」每个方块都有自己的名字，获悉这个知识点后，让我萌生自行实现一款简单的俄罗斯方块游戏。整个游戏元素均为 phaser3 的原始形状和文字，无额外的精灵贴图。看看能到 LEVEL 20 吗？",
+    "imageUrl": "https://becoder.top/resouces/images/projects/tetris_preview.png",
+    "gameUrl": "https://becoder.top/tetris/index.html",
+    "codeUrl": "https://github.com/ryan4g/phaser3-typescript-tetris"
+    }
+  ]

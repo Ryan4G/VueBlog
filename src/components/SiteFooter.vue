@@ -18,7 +18,7 @@ export default {
     getCopyright(){
       let html = '';
       
-      html = "<a href='http://becoder.top'>Becoder.top - 个人网站</a> &copy; " + (new Date()).getFullYear();
+      html = "<a href='https://becoder.top'>Becoder.top - 个人网站</a> &copy; " + (new Date()).getFullYear();
 
       return html;
     }
