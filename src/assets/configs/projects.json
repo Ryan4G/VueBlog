@@ -34,4 +34,20 @@
     "gameUrl": "https://becoder.top/tetris/index.html",
     "codeUrl": "https://github.com/ryan4g/phaser3-typescript-tetris"
     }
+    ,
+    {
+    "title": "Marble Race",
+    "abstract": "每个小球都有着自己的使命，这是一款无需任何操作，只需要花上亿点点时间，观看四种颜色的小球之间如何攻城略地的游戏。纯概率的世界里，猜猜这一次哪种颜色的小球赢得了最后的胜利，但你想要亲眼见证胜利可不容易。",
+    "imageUrl": "https://becoder.top/resouces/images/projects/marblerace_preview.png",
+    "gameUrl": "https://becoder.top/marblerace/index.html",
+    "codeUrl": "https://github.com/ryan4g/phaser3-typescript-marblerace"
+    }
+    ,
+    {
+    "title": "BreakOut",
+    "abstract": "又一个经典游戏「打砖块」，小球在空间内肆意弹跳，直到把所有砖块统统碾碎。有些砖块内还隐藏着不同的增益效果，获得它们将让砖块粉碎得更快。试一试，你的小球能一路粉碎到哪个关卡呢？",
+    "imageUrl": "https://becoder.top/resouces/images/projects/breakout_preview.png",
+    "gameUrl": "https://becoder.top/breakout/index.html",
+    "codeUrl": "https://github.com/ryan4g/phaser3-typescript-breakout"
+    }
   ]
